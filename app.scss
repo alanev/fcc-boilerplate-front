@@ -11,6 +11,8 @@
 @custom-media --phone (max-width: 479px);
 @custom-media --phone-small (max-width: 359px);
 
+/* common styles */
+
 a[class],
 a:hover{
     text-decoration: none;
@@ -68,14 +70,16 @@ a[class]{
             }
         }
         &content{
+            box-sizing: border-box;
             max-width: 1000px;
+            width: 100%;
             margin: 0 auto;
-            padding: 0 1rem;
+            padding: 0 var(--gutter);
             
             &_{
                 &main{
                     flex: 1 0 0;
-                    padding: 1rem 1rem;
+                    padding: 1rem var(--gutter);
                 }
             }
         }
