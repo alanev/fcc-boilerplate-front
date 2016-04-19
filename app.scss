@@ -79,6 +79,10 @@ a[class]{
                 &main{
                     flex: 1 0 0;
                     padding: 1rem var(--gutter);
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                 }
             }
         }
