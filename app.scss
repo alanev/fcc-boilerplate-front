@@ -1,6 +1,5 @@
 @use postcss-nested;
-@use cssnext;
-@use autoprefixer;
+@use postcss-cssnext;
 
 :root{
     --color_primary: rgb(255,82,82);
