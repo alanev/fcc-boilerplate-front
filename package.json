@@ -4,7 +4,7 @@
   "description": "Boilerplate for FreeCodeCamp Front End apps.",
   "main": "index.js",
   "scripts": {
-    "styles": "postcss -u postcss-use --postcss-use.modules * -o app.css app.scss",
+    "styles": "postcss -c postcss.json",
     "styles:watch": "npm run styles -- -w",
     "scripts": "babel app.es6 --presets es2015 -o app.js",
     "scripts:watch": "npm run scripts -- -w",

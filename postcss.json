@@ -1,0 +1,11 @@
+{
+    "use": [
+        "postcss-use"
+    ],
+    "input": "app.scss",
+    "output": "app.css",
+    "local-plugins": true,
+    "postcss-use": {
+        "modules": "*"
+    }
+}
